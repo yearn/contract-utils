@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/yearn/contract-utils.git"
   },
-  "license": "GNU V3",
+  "license": "AGPL-3.0-only",
   "contributors": [
     {
       "name": "b0dhidharma",
@@ -37,7 +37,8 @@
     "deployments",
     "!deployments/localhost",
     "!.env",
-    "!**/.DS_Store"
+    "!**/.DS_Store",
+    "LICENSE"
   ],
   "scripts": {
     "compile": "eth-sdk && hardhat compile",
@@ -75,7 +76,7 @@
     "eth-gas-reporter/colors": "1.4.0"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "4.5.0"
+    "@openzeppelin/contracts": "4.3.2"
   },
   "devDependencies": {
     "@codechecks/client": "0.1.12",
